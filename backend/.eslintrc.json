@@ -2,5 +2,8 @@
   "extends": [
     "@rocketseat/eslint-config/node",
     "plugin:prettier/recommended"
-  ]
+  ],
+  "rules": {
+    "camelcase": "off"
+  }
 }
